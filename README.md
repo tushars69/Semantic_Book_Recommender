@@ -62,6 +62,4 @@ Top 16 semantically similar books, ranked by emotion and category, with cover th
 | Vector DB       | `ChromaDB (FAISS backend)`                |
 | RAG Framework   | Inspired by `LangChain` + semantic search |
 | UI              | `Gradio`                                  |
-| Language        | Python 3.10+                              |
-| Data Processing | pandas, numpy                             |
 
