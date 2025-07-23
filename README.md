@@ -6,7 +6,7 @@ Books are then **ranked by emotion** (like joy, fear, sadness, etc.) and categor
 
 ---
 
-This system is a **lightweight, domain-specific RAG pipeline**:
+This system is a **lightweight, domain-specific RAG pipeline**
 
 ---
 
@@ -22,13 +22,7 @@ This system is a **lightweight, domain-specific RAG pipeline**:
 
 ## 📁 Project Structure
 
-Semantic-Book-Recommender/\n
-├── app.py                  # Main Gradio app with RAG-style logic\n
-├── tagged_description.txt  # Book descriptions with identifiers\n
-├── books_with_emotions.csv # Book metadata + emotion scores\n
-├── cover-not-found.jpg     # Placeholder image for missing thumbnails\n
-├── requirements.txt        # Python dependencies\n
-└── .env                    # (optional) dotenv config
+<pre> ``` Semantic-Book-Recommender/ ├── app.py # Main Gradio app with RAG-style logic ├── tagged_description.txt # Book descriptions with identifiers ├── books_with_emotions.csv # Book metadata + emotion scores ├── cover-not-found.jpg # Placeholder image for missing thumbnails ├── requirements.txt # Python dependencies └── .env # (optional) dotenv config ``` </pre>
 
 ---
 
@@ -39,16 +33,6 @@ Semantic-Book-Recommender/\n
 3. **Document Retrieval**: It finds similar book summaries from `tagged_description.txt` stored in a **Chroma vector DB** using cosine similarity.
 4. **Augmented Matching**: Emotion labels (joy, sadness, anger, etc.) and category filters (e.g., Fiction, Romance) are used to **refine the results**.
 5. **Results**: You get thumbnail-rich, emotionally aligned recommendations with brief summaries and authors.
-
----
-
-## 📊 Sample Query
-
-**Query:**  
-> “A suspenseful mystery set in a small town with dark secrets”
-
-**Returned Books:**  
-Top 16 semantically similar books, ranked by emotion and category, with cover thumbnails.
 
 ---
 
