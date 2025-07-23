@@ -20,12 +20,6 @@ This system is a **lightweight, domain-specific RAG pipeline**
 
 ---
 
-## 📁 Project Structure
-
-<pre> ``` Semantic-Book-Recommender/ ├── app.py # Main Gradio app with RAG-style logic ├── tagged_description.txt # Book descriptions with identifiers ├── books_with_emotions.csv # Book metadata + emotion scores ├── cover-not-found.jpg # Placeholder image for missing thumbnails ├── requirements.txt # Python dependencies └── .env # (optional) dotenv config ``` </pre>
-
----
-
 ## 🚀 How It Works (RAG-style Flow)
 
 1. **User Input**: You enter a query like _“a chilling dystopian novel with hope”_.
