@@ -22,12 +22,12 @@ This system is a **lightweight, domain-specific RAG pipeline**:
 
 ## 📁 Project Structure
 
-📁 Semantic-Book-Recommender/
-├── app.py                  # Main Gradio app with RAG-style logic
-├── tagged_description.txt  # Book descriptions with identifiers
-├── books_with_emotions.csv # Book metadata + emotion scores
-├── cover-not-found.jpg     # Placeholder image for missing thumbnails
-├── requirements.txt        # Python dependencies
+Semantic-Book-Recommender/\n
+├── app.py                  # Main Gradio app with RAG-style logic\n
+├── tagged_description.txt  # Book descriptions with identifiers\n
+├── books_with_emotions.csv # Book metadata + emotion scores\n
+├── cover-not-found.jpg     # Placeholder image for missing thumbnails\n
+├── requirements.txt        # Python dependencies\n
 └── .env                    # (optional) dotenv config
 
 ---
